@@ -48,7 +48,7 @@ io.on('connection', (sock) => {
   });
 });
 
-server.listen(+port, '0.0.0.0', (err) => {
+server.listen(+port, '18.237.172.9', (err) => {
   if (err) {
     console.log(err.stack);
     return;
