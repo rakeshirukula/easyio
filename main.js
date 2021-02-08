@@ -54,5 +54,5 @@ server.listen(+port, '0.0.0.0', (err) => {
     return;
   }
 
-  console.log(`Node [${name}] listens on http://127.0.0.1:${port}.`);
+  console.log(`Node [${name}] listens on http://18.237.172.9:${port}.`);
 });
